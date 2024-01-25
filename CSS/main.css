@@ -1170,7 +1170,7 @@ input::-moz-focus-inner {
   background-color: #02182c;
   background-repeat: no-repeat;
   background-position: top center;
-  background-image: url(../images/hero-pic-portfolio.jpg);
+  background-image: url(../images/portfolio-pic.jpg);
   background-size: cover;
   position: absolute;
   top: 12%;
@@ -1748,11 +1748,11 @@ input::-moz-focus-inner {
    * # Projects
    *
    * ------------------------------------------------------------------- */
-.s-works {
+.projects {
   padding-top: 19.2rem;
   padding-bottom: 16rem;
   background-color: #ffffff;
-  height: 220rem;
+  min-height: 430vh;
 }
 
 .masonry-wrap {
@@ -1792,51 +1792,18 @@ input::-moz-focus-inner {
   overflow: hidden;
 }
 
-.item-folio__thumb .thumb-link {
-  display: block;
-  position: relative;
-}
-
-.item-folio__thumb .thumb-link::before,
-.item-folio__thumb .thumb-link::after,
-.item-folio__thumb .thumb-link .item-folio__project-link {
-  transition: all 0.5s ease-in-out;
-}
-
-.item-folio__thumb .thumb-link::before {
-  display: block;
-  content: "";
-  background-color: rgba(0, 0, 0, 0.7);
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  opacity: 0;
-  visibility: hidden;
-}
-
-.item-folio__thumb .thumb-link::after {
-  display: block;
-  content: "";
-  width: 3.6rem;
-  height: 3.6rem;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: 80%;
-  background-image: url(../images/icons/icon-plus.svg);
-  opacity: 0;
-  visibility: hidden;
-  -webkit-transform: translate3d(-50%, -50%, 0);
-  transform: translate3d(-50%, -50%, 0);
-  z-index: 2;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-}
-
 .item-folio__thumb img {
   vertical-align: bottom;
+  width: 1280px;
+}
+
+.item-folio__thumb img:hover{
+  -webkit-filter: brightness(70%);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
 .item-folio__thumb .item-folio__project-link {
@@ -1908,7 +1875,7 @@ input::-moz-focus-inner {
 
 /* ------------------------------------------------------------------- 
    * responsive:
-   * works
+   * projects
    * ------------------------------------------------------------------- */
 @media screen and (max-width:1200px) {
   .masonry__brick {
@@ -1962,9 +1929,9 @@ input::-moz-focus-inner {
 }
 
 @media screen and (max-width:800px) {
-  .s-works {
+  .projects {
     padding-top: 16rem;
-    height: 250rem;
+    min-height: 260rem;
   }
 
   .masonry-wrap {
