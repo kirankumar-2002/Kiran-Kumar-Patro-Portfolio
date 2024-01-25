@@ -9,7 +9,7 @@
 
 <h2>Portfolio Page Link</h2>
 
-<p><a href="#">Visit My Portfolio</a></p> <!-- Replace with the actual link to your portfolio -->
+<p><a href="https://github.com/kirankumar-2002/Kiran-Kumar-Patro-Portfolio/blob/master/README.md">Visit My Portfolio</a></p> 
 
 <h2>Features</h2>
 
@@ -22,13 +22,10 @@
 <h2>How to Use</h2>
 
 <ol>
-    <li>Clone the repository: <code>git clone [repository_link]</code></li>
+    <li>Clone the repository: <code>git clone https://github.com/kirankumar-2002/Kiran-Kumar-Patro-Portfolio/ </code></li>
     <li>Open the <code>index.html</code> file in your browser.</li>
 </ol>
 
 <p>Feel free to reach out if you have any questions or if you'd like to collaborate on a project!</p>
 
-<h2>License</h2>
-
-<p>This project is licensed under the <a href="LICENSE">MIT License</a>.</p>
 
