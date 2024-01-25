@@ -1,20 +1,34 @@
 <h1>My Portfolio</h1>
-Welcome to my GitHub repository for my personal portfolio!
 
-Description
-This repository contains the source code for my portfolio website, showcasing my projects and skills. Feel free to explore the various projects I've worked on and learn more about my journey in the world of web development.
+<p>Welcome to my GitHub repository for my personal portfolio!</p>
 
-Portfolio Page Link
-Visit My Portfolio <!-- Replace with the actual link to your portfolio -->
+<h2>Description</h2>
 
-Features
-Project Showcase: Explore a collection of my recent projects with detailed information.
-Responsive Design: The portfolio is designed to be accessible and user-friendly across various devices.
-Technologies Used: Check out the technologies and tools I've used in my projects.
-How to Use
-Clone the repository: git clone [repository_link]
-Open the index.html file in your browser.
-Feel free to reach out if you have any questions or if you'd like to collaborate on a project!
+<p>This repository contains the source code for my portfolio website, showcasing my projects and skills. Feel free
+    to explore the various projects I've worked on and learn more about my journey in the world of web development.</p>
 
-License
-This project is licensed under the MIT License.
+<h2>Portfolio Page Link</h2>
+
+<p><a href="#">Visit My Portfolio</a></p> <!-- Replace with the actual link to your portfolio -->
+
+<h2>Features</h2>
+
+<ul>
+    <li><strong>Project Showcase:</strong> Explore a collection of my recent projects with detailed information.</li>
+    <li><strong>Responsive Design:</strong> The portfolio is designed to be accessible and user-friendly across various devices.</li>
+    <li><strong>Technologies Used:</strong> Check out the technologies and tools I've used in my projects.</li>
+</ul>
+
+<h2>How to Use</h2>
+
+<ol>
+    <li>Clone the repository: <code>git clone [repository_link]</code></li>
+    <li>Open the <code>index.html</code> file in your browser.</li>
+</ol>
+
+<p>Feel free to reach out if you have any questions or if you'd like to collaborate on a project!</p>
+
+<h2>License</h2>
+
+<p>This project is licensed under the <a href="LICENSE">MIT License</a>.</p>
+
