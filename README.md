@@ -9,7 +9,7 @@
 
 <h2>Portfolio Page Link</h2>
 
-<p><a href="https://github.com/kirankumar-2002/Kiran-Kumar-Patro-Portfolio/blob/master/README.md">Visit My Portfolio</a></p> 
+<p><a href="https://kirankumar-2002.github.io/Kiran-Kumar-Patro-Portfolio/">Visit My Portfolio</a></p> 
 
 <h2>Features</h2>
 
